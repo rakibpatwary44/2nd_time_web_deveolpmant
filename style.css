@@ -1,11 +1,9 @@
-body
- {
+body{
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
-
-}
+  margin: 0px;}
 h3{
   color: rgb(17, 2, 45);
   font-size: 20px;
@@ -27,4 +25,54 @@ h1 {
 }
 .haif-waith img {
   width: 100%;
+  top: 30px;
+  
+}
+.top-banner{
+  background-image: url("image/top-banner.png");
+  background-repeat: no-repeat;
+  /* background-image: url(image/1bg.png); */
+}
+
+section{
+  height: 500px;
+  padding-bottom: 50px;
+}
+.ank-button{
+    text-decoration:none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    color: wheat;
+    border-radius: 7px;
+    font-weight: bold;
+  
+}
+.haif-waith-2{
+  width: 391px;
+  float: left;
+  margin: 2%;
+  padding: 2px;
+}
+.haif-waith-2 img{
+  width: 100%;
+  top: 50px;
+}
+.pont-sze{
+ font-size: 20px;
+}
+.big-dream{
+  background-image: url(image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.thad-way{
+  background-image: url(image/4bg.png);
+  background-repeat: no-repeat;
+}
+.exprinces-style{
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 6px;
+  height:60% ;
+  /* width: 40%; */
+  /* text-align: center; */
 }
