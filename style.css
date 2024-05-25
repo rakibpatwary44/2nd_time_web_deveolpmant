@@ -36,7 +36,7 @@ h1 {
 
 section{
   height: 500px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 .ank-button{
     text-decoration:none;
@@ -75,4 +75,37 @@ section{
   height:60% ;
   /* width: 40%; */
   /* text-align: center; */
+}
+.experinece-eara{
+  background-image:url(image/exp-bg.png);
+  background-repeat: no-repeat;
+ background-position: left 90px ;
+}
+#full-stack{
+  border-left: 7px solid;
+  border-image:  linear-gradient(180deg, lightsalmon, tomato)  ;
+  border-image-slice: 1;
+}
+#baby-dev{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 2;
+}
+.own-earia{
+ width: 90%;
+ /* width: 40%; */
+  /* float: left; */
+  margin-left: 5%;
+  padding-left: 2px;
+  height: 50%;
+  text-align: center;
+  
+}
+/* .mair{
+ margin: top 10px;: ;
+} */
+.my-cret{
+  background-image: url(image/1bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
 }
